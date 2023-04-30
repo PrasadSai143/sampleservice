@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const Joi = require('joi');
 Joi.objectId = require('joi-objectid')(Joi);
-
-
 const Rental = mongoose.model('Rental', new mongoose.Schema({
     customer: {
         type: new mongoose.Schema({
