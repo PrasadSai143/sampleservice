@@ -2,15 +2,16 @@ const mongoose = require('mongoose');
 const express = require('express');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/authorization');
+const validateObjectId = require('../middleware/validateObjectId');
 const router = express.Router();
 const { Genre, validate } = require('../models/genre');
 
-router.get('/', auth ,async (req, res) =>  {
+router.get('/', async (req, res) =>  {
     const genres = await Genre.find().sort('name');
     res.send(genres);
 })
 
-router.post('/', async (req, res) =>  {
+router.post('/' ,auth,async (req, res) =>  {
     const { error } = validate(req.body);
     if(error) return res.status(400).send(error.details[0].message);
     
@@ -21,16 +22,11 @@ router.post('/', async (req, res) =>  {
     res.send(genre);
 });
 
-router.get('/:id', async(req, res) =>  {
-    try{
-        var genre = await Genre.findById(req.params.id);
-        if(!genre)
-            return res.status(404).send('The genre with given id not avalable')
-        res.send(genre);
-    }
-    catch(ex){
-        res.send(ex.message);
-    }
+router.get('/:id',validateObjectId, async(req, res) =>  {
+    var genre = await Genre.findById(req.params.id);
+    if(!genre)
+        return res.status(404).send('The genre with given id not avalable')
+    res.send(genre);
 })
 
 router.put('/:id', async (req, res) =>  {

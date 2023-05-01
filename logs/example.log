@@ -1,0 +1,275 @@
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/RentalDb"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"kind":"ObjectId","level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\" Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\LocalService\\myapinodeservice\\sampleservice\\node_modules\\mongoose\\lib\\query.js:4933:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\LocalService\\myapinodeservice\\sampleservice\\node_modules\\mongoose\\lib\\query.js:5032:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","stringValue":"\"1\"","value":"1","valueType":"string"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
+{"level":"info","message":"Listening on port 3000"}
+{"level":"info","message":"Connected to MongoDB...mongodb://127.0.0.1:27017/vidly_test"}
