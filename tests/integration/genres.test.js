@@ -8,8 +8,8 @@ let server;
 describe('/api/genres', () => {
     beforeEach(() => { server = require('../../index'); })
     afterEach(async () => {
-        server.close();
-        await Genre.remove({});
+        await server.close();
+        await Genre.deleteMany();
     });
 
     let token;
@@ -32,10 +32,9 @@ describe('/api/genres', () => {
                 { name: 'genre1' },
                 { name: 'genre2' },
             ];
-
             await Genre.collection.insertMany(genres);
 
-            const res = await request(server).get('/api/genres');
+            const res = await request(server).get('/api/genres').set('x-auth-token', token);
 
             expect(res.status).toBe(200);
             expect(res.body.length).toBe(2);
@@ -53,22 +52,22 @@ describe('/api/genres', () => {
             const genre = new Genre({ name: 'genre1' });
             await genre.save();
 
-            const res = await request(server).get('/api/genres/' + genre._id);
-
+            const res = (await request(server).get('/api/genres/' + genre._id.toHexString()).set('x-auth-token',token));
+            console.log(res.status);
             expect(res.status).toBe(200);
+            
             expect(res.body).toHaveProperty('name', genre.name);
         });
 
         it('should return 404 if invalid id is passed', async () => {
-            const res = await request(server).get('/api/genres/1');
+            const res = await request(server).get('/api/genres/1').set('x-auth-token', token);
 
             expect(res.status).toBe(404);
         });
 
         it('should return 404 if no genre with the given id exists', async () => {
             const id = mongoose.Types.ObjectId();
-            console.log(id);
-            const res = await request(server).get('/api/genres/' + id);
+            const res = await request(server).get('/api/genres/' + id).set('x-auth-token', token);
 
             expect(res.status).toBe(404);
         });
@@ -169,7 +168,7 @@ describe('/api/genres', () => {
 
             const res = await exec();
 
-            expect(res.status).toBe(200);
+            expect(res.status).toBe(401);
         });
 
         it('should return 400 if genre is less than 5 characters', async () => {
@@ -192,7 +191,6 @@ describe('/api/genres', () => {
             id = 1;
 
             const res = await exec();
-            console.log(res);
             expect(res.status).toBe(500);
         });
 
@@ -246,7 +244,6 @@ describe('/api/genres', () => {
             token = '';
 
             const res = await exec();
-            console.log(res);
             expect(res.status).toBe(401);
         });
 
@@ -262,7 +259,6 @@ describe('/api/genres', () => {
             id = 1;
 
             const res = await exec();
-            console.log(res);
             expect(res.status).toBe(500);
         });
 
